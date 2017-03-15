@@ -1,0 +1,35 @@
+.main {
+   text-align: center;
+   background-color: #009999;
+   color: white;
+    display: block;
+    
+     }
+ a:hover {
+     background-color: red;
+  }
+ul {
+  font-weight: bold;
+}
+
+  article {
+    background-color: lightgrey;
+      }
+
+  img {
+    height: 400px;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    }
+
+.conclution {
+  width: 700px;
+
+}
+  footer {
+    background-color: #009999;
+    color: white;
+    font-style: italic;
+
+  }
