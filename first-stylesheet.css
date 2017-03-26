@@ -1,13 +1,15 @@
 .main {
    text-align: center;
+   font-family: 'Luckiest Guy', cursive;
    background-color: #009999;
    color: white;
     display: block;
-    
-     }
+  }
  a:hover {
      background-color: red;
+     transition: all 1s ease 0s;
   }
+
 ul {
   font-weight: bold;
 }
@@ -24,12 +26,21 @@ ul {
     }
 
 .conclution {
-  width: 700px;
-
+  font-family: 'Lobster', cursive;
+  width: 850px;
+    background: red;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 2s;
+    transition-property: width, height;
+    transition-duration: 2s;
 }
+.conclution:hover {
+    width: 300px;
+    height: 300px;
+}
+
   footer {
     background-color: #009999;
     color: white;
     font-style: italic;
-
   }
