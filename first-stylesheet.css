@@ -9,6 +9,10 @@
      background-color: red;
      transition: all 1s ease 0s;
   }
+p::first-letter {
+      color: #ff0000;
+      font-size: xx-large;
+}
 
 ul {
   font-weight: bold;
